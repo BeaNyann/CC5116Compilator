@@ -1,0 +1,5 @@
+(library
+ (name compiler)
+ (modules parse asm expr interp compile tag errors funcalls prims envs
+   src_expr desuggar)
+ (libraries containers fmt str))
