@@ -1,0 +1,6 @@
+NAME: divtimes
+DESCRIPTION: returns the integer division
+SRC:
+(/ (* 2 2) 2)
+EXPECTED:
+2

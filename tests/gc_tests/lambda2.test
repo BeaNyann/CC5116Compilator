@@ -1,0 +1,9 @@
+NAME: lambda2
+DESCRIPTION: use function as value, with HEAP_SIZE = 12 and whitout GC, this pass
+PARAMS: HEAP_SIZE = 12, USE_GC = 0
+SRC:
+(def (map-pair f p) (tup (f (get p 0)) (f (get p 1))))
+(let (add3 (lambda (x) (+ 3 x)))
+  (map-pair add3 (tup 39 2)))
+EXPECTED:
+(42,5)

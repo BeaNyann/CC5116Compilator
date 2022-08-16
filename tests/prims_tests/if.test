@@ -1,0 +1,6 @@
+NAME: iftrue
+DESCRIPTION: returns the true side
+SRC:
+(if true (+ 1 2) (+ 2 3))
+EXPECTED:
+3

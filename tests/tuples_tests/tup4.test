@@ -1,0 +1,6 @@
+NAME: tup4
+DESCRIPTION: creates a tuple and get its elements
+SRC: 
+(let (t (tup true 2 3)) (if (get t 0) (get t 1) (get t 2)))
+EXPECTED:
+2

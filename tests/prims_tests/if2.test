@@ -1,0 +1,6 @@
+NAME: if2
+DESCRIPTION: returns the false side
+SRC:
+(if (< 2 1) (+ 1 2) (- 3 2))
+EXPECTED:
+1

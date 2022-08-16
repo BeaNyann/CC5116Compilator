@@ -1,0 +1,7 @@
+NAME: scary tuple
+DESCRIPTION: returns a big and scary tuple
+PARAMS: USE_GC=0,HEAP_SIZE=64
+SRC:
+(tup (tup 2 3 (tup true false)) (tup 1 2 4 6 78989778776 09098098) (tup true 867687))
+EXPECTED:
+((2,3,(true,false)),(1,2,4,6,78989778776,9098098),(true,867687))

@@ -1,0 +1,6 @@
+NAME: muttup
+DESCRIPTION: creates a tuple and set its elements
+SRC: 
+(let (t (tup 1 2 3)) (seq (set t 0 5) (get t 0)))
+EXPECTED:
+5

@@ -1,0 +1,7 @@
+NAME: lookuperror
+DESCRIPTION: checks that the compiler raises an error when a var that is not defined is used
+STATUS: CT error
+SRC:
+(+ 2 x)
+EXPECTED:
+Identifier x not found in environment

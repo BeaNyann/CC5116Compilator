@@ -1,0 +1,6 @@
+NAME: times2
+DESCRIPTION: returns the multiplication between the two arguments
+SRC:
+(* (* 3 2) (* 1 1))
+EXPECTED:
+6

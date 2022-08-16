@@ -1,0 +1,6 @@
+NAME: and
+DESCRIPTION: return true if both of the arguments are true
+SRC:
+(and false true)
+EXPECTED:
+false

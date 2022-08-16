@@ -1,0 +1,13 @@
+NAME: tuple gc error
+DESCRIPTION: with HEAP_SIZE 8 and without GC, this falls.
+PARAMS: HEAP_SIZE=8,USE_GC=0
+STATUS: RT error
+SRC:
+(let (x (tup 1 2))
+ (+ (let (y (tup 3 4)) 
+        1) 
+    (let (z (tup 5 6)) 
+        (get (tup 7 8) 0)))
+)
+EXPECTED:
+out of memory

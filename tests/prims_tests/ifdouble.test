@@ -1,0 +1,6 @@
+NAME: ifdouble
+DESCRIPTION: returns the result of a nested if
+SRC:
+(if true (if (not true) (add1 24) (sub1 4)) false)
+EXPECTED:
+3

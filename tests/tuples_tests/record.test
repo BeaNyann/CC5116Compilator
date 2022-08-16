@@ -1,0 +1,7 @@
+NAME: record
+DESCRIPTION: creates a record and gets the 0th element
+SRC:
+(record point x y z)
+(get (point 1 2 3) 0)
+EXPECTED: 
+1

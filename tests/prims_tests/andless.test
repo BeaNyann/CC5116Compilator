@@ -1,0 +1,6 @@
+NAME: andless
+DESCRIPTION: return true if both of the arguments are true
+SRC:
+(and (< 1 2) true)
+EXPECTED:
+true

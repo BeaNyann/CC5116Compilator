@@ -1,0 +1,6 @@
+NAME: tup3
+DESCRIPTION: creates a tuple and get its elements
+SRC: 
+(get (tup 1 false true) 2)
+EXPECTED:
+true

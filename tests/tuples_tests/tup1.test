@@ -1,0 +1,6 @@
+NAME: tup1
+DESCRIPTION: creates a tuple and get its elements
+SRC: 
+(let (t (tup 1 2 3)) (+ (get t 0) (get t 1)))
+EXPECTED:
+3

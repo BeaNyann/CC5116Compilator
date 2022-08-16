@@ -1,0 +1,10 @@
+NAME: lambda2
+DESCRIPTION: use function as value, with HEAP_SIZE = 8 and with GC, this fails
+PARAMS: HEAP_SIZE=4, USE_GC=1
+STATUS: RT error
+SRC:
+(def (map-pair f p) (tup (f (get p 0)) (f (get p 1))))
+(let (add3 (lambda (x) (+ 3 x)))
+  (map-pair add3 (tup 39 2)))
+EXPECTED:
+out of memory

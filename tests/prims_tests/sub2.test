@@ -1,0 +1,6 @@
+NAME: sub2
+DESCRIPTION: decrements twice a number
+SRC:
+(sub1 (sub1 44))
+EXPECTED:
+42

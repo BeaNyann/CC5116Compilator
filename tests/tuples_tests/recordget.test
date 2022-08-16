@@ -1,0 +1,7 @@
+NAME: recordget
+DESCRIPTION: creates a record and gets the 0th element
+SRC:
+(record point x y z)
+(point-x (point 1 2 3))
+EXPECTED: 
+1

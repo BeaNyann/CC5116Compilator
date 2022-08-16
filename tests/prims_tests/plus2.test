@@ -1,0 +1,6 @@
+NAME: plus2
+DESCRIPTION: returns the sum between the two arguments
+SRC:
+(+ (+ 3 2) (+ 1 1))
+EXPECTED:
+7

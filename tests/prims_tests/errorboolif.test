@@ -1,0 +1,7 @@
+NAME: errorboolif
+DESCRIPTION: checks that the compiler raises an error when a number is passed to a bool function
+STATUS: RT error
+SRC:
+(if 5 3 4)
+EXPECTED:
+Expected boolean, but got 5

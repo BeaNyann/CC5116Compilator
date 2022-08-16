@@ -1,0 +1,6 @@
+NAME: plus
+DESCRIPTION: returns the sum between the two arguments
+SRC:
+(let (x 1) (+ 2 x))
+EXPECTED:
+3

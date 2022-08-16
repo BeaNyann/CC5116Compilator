@@ -1,0 +1,6 @@
+NAME: emptytup
+DESCRIPTION: allows an empty tuple
+SRC:
+(let (t (tup)) 2)
+EXPECTED: 
+2

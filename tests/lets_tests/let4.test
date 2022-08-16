@@ -1,0 +1,10 @@
+NAME: let4
+DESCRIPTION: A complex let
+SRC:
+(let (a 10)                  
+ (let (c (let (b (add1 a))   
+          (let (d (add1 b))  
+           (add1 b))))       
+  (add1 c)))
+EXPECTED:
+13

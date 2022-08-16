@@ -1,0 +1,6 @@
+NAME: multilet1
+DESCRIPTION: A multiple binding let
+SRC:
+(let ((x 2)(y 3)(z 4)) y)
+EXPECTED:
+3

@@ -1,0 +1,6 @@
+NAME: ifnotletless
+DESCRIPTION: returns the side thar correspond to the boolean condition
+SRC:
+(let ((x 2)(y 3)) (if (not (< x y)) (+ x y) (* x y)))
+EXPECTED:
+6

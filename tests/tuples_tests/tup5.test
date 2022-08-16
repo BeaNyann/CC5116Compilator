@@ -1,0 +1,6 @@
+NAME: tup5
+DESCRIPTION: creates a tuple and get its elements
+SRC: 
+(let (t (tup 1 2 3 4 5)) (+ (+ (+ (get t 0) (get t 1)) (+ (get t 2) (get t 3))) (get t 4)))
+EXPECTED:
+15

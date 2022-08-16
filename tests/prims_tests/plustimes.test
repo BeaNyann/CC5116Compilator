@@ -1,0 +1,6 @@
+NAME: plustimes
+DESCRIPTION: returns the multiplication between the two results of the arguments
+SRC:
+(* (+ 3 2) (+ 1 1))
+EXPECTED:
+10

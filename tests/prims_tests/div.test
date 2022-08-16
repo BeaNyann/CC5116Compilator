@@ -1,0 +1,6 @@
+NAME: div
+DESCRIPTION: returns the integer division
+SRC:
+(/ 8 2)
+EXPECTED:
+4

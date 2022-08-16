@@ -1,0 +1,6 @@
+NAME: let2
+DESCRIPTION: A simple let
+SRC:
+(let (x 10) (add1 x))
+EXPECTED:
+11

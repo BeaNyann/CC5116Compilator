@@ -1,0 +1,9 @@
+NAME: lambda gc
+DESCRIPTION: with HEAP_SIZE 16 and with GC
+PARAMS: HEAP_SIZE=16,USE_GC=1
+SRC:
+(let (x (lambda (y) y)) 
+    (let (z (tup 5 6 7)) 
+        (get (tup 8 9) 0)))
+EXPECTED:
+8

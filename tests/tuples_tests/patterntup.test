@@ -1,0 +1,6 @@
+NAME: patterntup
+DESCRIPTION: makes pattern matching with a tuple
+SRC: 
+(let ((f 3)((tup x y z) (tup 1 2 3))) x)
+EXPECTED:
+1 

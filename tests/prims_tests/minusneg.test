@@ -1,0 +1,6 @@
+NAME: minusneg
+DESCRIPTION: returns the substraccion between the two arguments
+SRC:
+(- 2 3)
+EXPECTED:
+-1

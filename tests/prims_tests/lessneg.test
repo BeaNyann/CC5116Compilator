@@ -1,0 +1,6 @@
+NAME: lessneg
+DESCRIPTION: returns true if the second argument is less than the first
+SRC:
+(let (x -1) (< x 2))
+EXPECTED:
+true

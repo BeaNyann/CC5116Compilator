@@ -1,0 +1,7 @@
+NAME: tuple in tuple gc
+DESCRIPTION: passes because garbage collector liberates heap
+PARAMS: HEAP_SIZE=4,USE_GC=1
+SRC:
+(+ (get (get (tup (tup 1)) 0) 0) (get (tup 2) 0))
+EXPECTED:
+3

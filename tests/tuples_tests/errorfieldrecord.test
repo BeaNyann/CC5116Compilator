@@ -1,0 +1,7 @@
+DESCRIPTION: checks that the compiler raises an error when is used a record with a wrong field
+STATUS:CT error
+SRC:
+(record point x y z)
+(point-w (point 1 2 3))
+EXPECTED: 
+Field not found: w

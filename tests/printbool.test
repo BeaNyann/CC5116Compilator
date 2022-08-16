@@ -1,0 +1,8 @@
+NAME: printing within true
+DESCRIPTION: prints true
+SRC:
+(defsys print (any) -> any)
+(print true)
+EXPECTED:
+> true
+true

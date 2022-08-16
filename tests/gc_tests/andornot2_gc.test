@@ -1,0 +1,7 @@
+NAME: andornot2
+DESCRIPTION: return true if both of the arguments are true, the use of gc does not affect this
+PARAMS: USE_GC=1
+SRC:
+(and (or false true) (not false))
+EXPECTED:
+true

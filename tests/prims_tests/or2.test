@@ -1,0 +1,6 @@
+NAME: or2
+DESCRIPTION: return true if one of the arguments is true
+SRC:
+(or false false)
+EXPECTED:
+false

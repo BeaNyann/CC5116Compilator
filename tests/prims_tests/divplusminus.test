@@ -1,0 +1,6 @@
+NAME: divplusminus
+DESCRIPTION: returns the integer division
+SRC:
+(/ (+ 4 2) (- 5 3))
+EXPECTED:
+3

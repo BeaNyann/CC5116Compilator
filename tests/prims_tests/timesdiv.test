@@ -1,0 +1,6 @@
+NAME: timesdiv
+DESCRIPTION: returns the multiplication between the two arguments
+SRC:
+(* (/ 6 2) (/ 4 1))
+EXPECTED:
+12

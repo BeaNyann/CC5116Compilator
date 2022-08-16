@@ -1,0 +1,6 @@
+NAME: seq
+DESCRIPTION: makes a sequence of actions
+SRC: 
+(let (f 3) (seq (+ 3 1) (+ f 2)))
+EXPECTED:
+5

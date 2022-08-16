@@ -1,0 +1,7 @@
+NAME: errorboolor
+DESCRIPTION: checks that the compiler raises an error when a number is passed to a bool function
+STATUS: RT error
+SRC:
+(or false 6)
+EXPECTED:
+Expected boolean, but got 6

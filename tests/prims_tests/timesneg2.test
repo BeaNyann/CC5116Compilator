@@ -1,0 +1,6 @@
+NAME: timesneg2
+DESCRIPTION: returns the multiplication between the two arguments
+SRC:
+(* -1 -2)
+EXPECTED:
+2

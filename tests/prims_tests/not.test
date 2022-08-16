@@ -1,0 +1,6 @@
+NAME: not
+DESCRIPTION: negates the value
+SRC:
+(not true)
+EXPECTED:
+false

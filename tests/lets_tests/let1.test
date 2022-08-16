@@ -1,0 +1,6 @@
+NAME: let1
+DESCRIPTION: A nested let
+SRC:
+(let (x 2) (let (y 3) x))
+EXPECTED:
+2

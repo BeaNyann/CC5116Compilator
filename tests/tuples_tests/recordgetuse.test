@@ -1,0 +1,7 @@
+NAME: recordgetuse
+DESCRIPTION: creates a record and gets the 0th element and adds 1 to it
+SRC:
+(record point x y z)
+(add1 (point-x (point 1 2 3)))
+EXPECTED: 
+2

@@ -1,0 +1,6 @@
+NAME: andornot
+DESCRIPTION: return true if both of the arguments are true
+SRC:
+(and (or true false) (not false))
+EXPECTED:
+true

@@ -1,0 +1,10 @@
+NAME: lambda gc error
+DESCRIPTION: with HEAP_SIZE 16 and without GC, this falls.
+PARAMS: HEAP_SIZE=8,USE_GC=1
+STATUS: RT error
+SRC:
+(let (x (lambda (y) y)) 
+    (let (z (tup 5 6 7)) 
+        (get (tup 8 9) 0)))
+EXPECTED:
+out of memory
