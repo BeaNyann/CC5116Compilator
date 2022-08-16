@@ -1,0 +1,6 @@
+NAME: funun3
+DESCRIPTION: creates an use a unary function
+SRC:
+(def (f x) (if (< x 5) (+ 5 x) (- x 5))) (f 10)
+EXPECTED:
+5

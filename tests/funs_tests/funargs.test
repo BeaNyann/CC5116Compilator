@@ -1,0 +1,6 @@
+NAME: funargs
+DESCRIPTION: creates an use a function with a lot of args
+SRC:
+(def (f a1 a2 a3 a4 a5 a6 a7 a8 a9) (+ a8 a9)) (f 1 2 3 10 11 12 13 14 15)
+EXPECTED:
+29

@@ -1,0 +1,7 @@
+NAME: printfun
+DESCRIPTION: creates an use the a function
+SRC:
+(def (id x) x)
+id
+EXPECTED: 
+<fun>

@@ -1,0 +1,9 @@
+NAME: tuple in tuple gc
+DESCRIPTION: fails because not enough heap space
+PARAMS: HEAP_SIZE=8,USE_GC=1
+STATUS: RT error
+SRC:
+(let (z (tup (tup 1)))
+(+ ((lambda () (get (tup 2) 0))) (get (get z 0) 0)))
+EXPECTED:
+out of memory

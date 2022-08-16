@@ -1,0 +1,7 @@
+NAME: errorarity
+DESCRIPTION: checks that the compiler raises an error when a function is called with a wrong arity
+STATUS: RT error
+SRC:
+(def (f x y) (+ x y)) (f 3)
+EXPECTED:
+Wrong arity

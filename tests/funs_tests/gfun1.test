@@ -1,0 +1,6 @@
+NAME: gfun1
+DESCRIPTION: creates an use the a function
+SRC:
+(def (f x y z) (+ x (+ y z))) (f 1 2 3)
+EXPECTED:
+6

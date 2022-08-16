@@ -1,0 +1,7 @@
+NAME: cfunargs
+DESCRIPTION: creates an use a c function with a lot of args
+SRC:
+(defsys multiargs (int int int int int int int) -> int)
+(multiargs 1 2 3 4 5 6 7) 
+EXPECTED:
+7

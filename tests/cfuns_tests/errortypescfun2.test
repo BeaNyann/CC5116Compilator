@@ -1,0 +1,8 @@
+NAME: errortypescfun2
+DESCRIPTION: checks that the compiler raises an error when a c function is called with wrong type of arguments
+STATUS: RT error
+SRC: 
+(defsys if_int (bool int int) -> int)
+(if_int 2 2 true)
+EXPECTED:
+Expected boolean, but got 2

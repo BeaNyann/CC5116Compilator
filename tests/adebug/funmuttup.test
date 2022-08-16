@@ -1,0 +1,7 @@
+NAME: printing within add1
+DESCRIPTION: prints 1 and add 1 to the result
+SRC:
+(def (mut x) (set x 2 3))
+(let (t (tup (+ 1 1) (* 2 2) (/ 3 3))) (seq (mut t) t))
+EXPECTED:
+(2,4,3)

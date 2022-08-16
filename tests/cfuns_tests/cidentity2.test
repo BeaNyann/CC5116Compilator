@@ -1,0 +1,7 @@
+NAME: cidentity2
+DESCRIPTION: call a identity function in c
+SRC: 
+(defsys identity (bool) -> bool)
+(identity true)
+EXPECTED:
+true

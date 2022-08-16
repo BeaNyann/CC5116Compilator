@@ -1,0 +1,10 @@
+NAME: printfun
+DESCRIPTION: creates an use the a function
+SRC:
+(defsys print (any) -> any)
+(def (g x) (if (< x 5) 5 x))
+(def (f x y) (+ (* 2 (print x)) (g y)))
+(f 5 3)
+EXPECTED: 
+> 5
+15

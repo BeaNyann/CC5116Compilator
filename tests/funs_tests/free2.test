@@ -1,0 +1,7 @@
+NAME: free vars test 2
+DESCRIPTION: makes a lambda that uses free vars
+PARAMS: USE_GC=0,HEAP_SIZE=64
+SRC:
+(let ((z (tup 1 2)) (addz1 (lambda (x) (+ x (get z 1))))) ((lambda (f) (f 2)) addz1))
+EXPECTED:
+4

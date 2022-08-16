@@ -1,0 +1,6 @@
+NAME: funun1
+DESCRIPTION: creates an use a unary function
+SRC:
+(def (f x) (not x)) (f true)
+EXPECTED:
+false

@@ -1,0 +1,8 @@
+NAME: lambda in C
+DESCRIPTION: C function called inside of a lambda
+SRC:
+(defsys max_int (int int) -> int)
+(def (max x y) (max_int x y))
+(max 1 2)
+EXPECTED:
+2

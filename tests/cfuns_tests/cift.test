@@ -1,0 +1,8 @@
+NAME: ciftrue
+DESCRIPTION: uses an if from c
+SRC: 
+(defsys if_int (bool int int) -> int)
+(if_int true 5 3)
+EXPECTED:
+5
+

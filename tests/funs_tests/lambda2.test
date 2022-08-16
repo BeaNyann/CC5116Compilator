@@ -1,0 +1,9 @@
+NAME: lambda2
+DESCRIPTION: use function as value
+PARAMS: HEAP_SIZE=32
+SRC:
+(def (foo n1 n2 n3 n4 n5 n6) (+ n5 n6))
+(def (pair-fun f g p) (tup (f 1 2 3 4 5 (get p 0)) (g (get p 1))))
+(pair-fun (lambda (n1 n2 n3 n4 n5 n6)(+ n5 n6)) (lambda (x) x) (tup 39 2))
+EXPECTED:
+(44,2)

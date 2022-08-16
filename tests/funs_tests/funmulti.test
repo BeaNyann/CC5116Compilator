@@ -1,0 +1,6 @@
+NAME: funmulti
+DESCRIPTION: creates an use a function more than one time
+SRC:
+(def (f x y) (+ x y)) (+ (f 1 2) (f 3 4))
+EXPECTED:
+10

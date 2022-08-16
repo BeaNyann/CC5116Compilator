@@ -1,0 +1,8 @@
+NAME: errorCarity
+DESCRIPTION: checks that the compiler raises an error when a c function is called with a wrong arity
+STATUS: RT error
+SRC: 
+(defsys max_int (int int) -> int)
+(max_int 2)
+EXPECTED:
+Wrong arity

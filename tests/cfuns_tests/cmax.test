@@ -1,0 +1,7 @@
+NAME: cmax
+DESCRIPTION: call a max function in c
+SRC: 
+(defsys max_int (int int) -> int)
+(max_int 2 3)
+EXPECTED:
+3

@@ -1,0 +1,11 @@
+NAME: free vars test 4
+DESCRIPTION: makes a lambda that uses free vars and modifies them
+PARAMS: USE_GC=0,HEAP_SIZE=64
+SRC:
+(let 
+    ((z (tup 5 6)) 
+    (add6 (lambda (y) (+ y (get z 1)) ))
+    (set3 (lambda () (set z 1 3)))) 
+(seq (set3) (add6 2)))
+EXPECTED:
+5

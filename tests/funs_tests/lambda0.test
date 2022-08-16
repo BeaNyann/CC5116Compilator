@@ -1,0 +1,7 @@
+NAME: lambda0
+DESCRIPTION: lambda whitout arguments
+SRC:
+(def (const) 3)
+(const)
+EXPECTED:
+3

@@ -1,0 +1,7 @@
+NAME: identity function
+DESCRIPTION: uses the identity function twice
+SRC:
+(defsys identity (any) -> any)
+((identity identity) 5)
+EXPECTED:
+5

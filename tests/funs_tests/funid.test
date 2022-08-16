@@ -1,0 +1,6 @@
+NAME: funid
+DESCRIPTION: creates an use the identity function
+SRC:
+(def (f x) x) (f 1)
+EXPECTED:
+1

@@ -1,0 +1,8 @@
+NAME: errortypescfun
+DESCRIPTION: checks that the compiler raises an error when a c function is called with wrong type of arguments
+STATUS: RT error
+SRC: 
+(defsys max_int (int int) -> int)
+(max_int 2 true)
+EXPECTED:
+Expected number, but got true

@@ -1,0 +1,6 @@
+NAME: printing within add1
+DESCRIPTION: prints 1 and add 1 to the result
+SRC:
+(record test)(let (t (test)) 1)
+EXPECTED:
+1

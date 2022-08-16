@@ -1,0 +1,6 @@
+NAME: funun2
+DESCRIPTION: creates an use a unary function
+SRC:
+(def (f x) (+ x 2)) (f 6)
+EXPECTED:
+8

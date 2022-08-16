@@ -1,0 +1,8 @@
+NAME: lambda3
+DESCRIPTION: use function as value
+SRC:
+(def (foo n1 f1) (f1 n1))
+(def (foo1 n2 n3 f2) (+ (foo n2 f2) n3))
+(foo1 -1 2 (lambda (x) x))
+EXPECTED:
+1

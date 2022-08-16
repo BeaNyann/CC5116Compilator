@@ -1,0 +1,7 @@
+NAME: identity function
+DESCRIPTION: uses the identity function twice
+SRC:
+(def (id x) x)
+((id id) 5)
+EXPECTED:
+5

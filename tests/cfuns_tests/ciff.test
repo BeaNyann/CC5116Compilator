@@ -1,0 +1,7 @@
+NAME: ciffalse
+DESCRIPTION: uses an if from c
+SRC: 
+(defsys if_int (bool int int) -> int)
+(if_int false 5 3)
+EXPECTED:
+3

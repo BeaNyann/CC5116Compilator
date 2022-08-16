@@ -1,0 +1,7 @@
+NAME: errornotdefinedcfunc
+DESCRIPTION: checks that the compiler raises an error when a c function is called and not defined
+STATUS: CT error
+SRC:
+(f 5)
+EXPECTED:
+Identifier f not found in enviroment
